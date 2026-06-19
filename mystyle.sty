@@ -1,0 +1,81 @@
+
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage[final]{graphicx}
+\usepackage{xcolor}
+\usepackage{url}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{comment}
+\usepackage{todonotes}
+\usepackage{tcolorbox}
+\usepackage{caption}
+\DeclareCaptionLabelFormat{nonumber}{\textbf{#1:}}
+\DeclareCaptionStyle{hset}{
+  labelformat=nonumber,
+  labelsep=space,
+  justification=centering
+}
+\captionsetup[figure]{style=hset}
+\usepackage{tikz}
+\usepackage{bookmark}
+\usepackage{tikz-3dplot}
+\usepackage{float}
+\usepackage{enumerate, enumitem}
+\usepackage{dsfont}
+\usepackage{amsfonts} 
+\usepackage{mathalfa}
+\usetikzlibrary{calc}
+\usetikzlibrary{arrows.meta}
+\renewcommand{\thesection}{\arabic{section}}
+\theoremstyle{definition}
+\newtheorem{proposition}{Proposition}
+\newtheorem{lemma}{Lemma}
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}
+\newtheorem{definition}{Definition}
+\newtheorem*{remark}{Remark}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem*{lemma*}{Lemma}
+\newtheorem*{proposition*}{Proposition}
+\newtheorem{assumption}[theorem]{Assumption}
+\theoremstyle{remark} 
+\newtheorem*{solution}{Solution}
+\newcommand{\conv}{\operatorname{conv}}
+\newcommand{\cone}{\operatorname{cone}}
+\newcommand{\elim}{\operatorname{elim}}
+\newcommand{\proj}{\operatorname{proj}}
+\newcommand{\rank}{\operatorname{rank}}
+\newcommand{\pyr}{\operatorname{pyr}}
+\newcommand{\bipyr}{\operatorname{bipyr}}
+\newcommand{\interior}{\operatorname{int}}
+\newcommand{\lineal}{\operatorname{lineal}}
+\newcommand{\homo}{\operatorname{homog}}
+\newcommand{\relint}{\operatorname{relint}}
+\newcommand{\supp}{\operatorname{supp}}
+\newcommand{\sign}{\operatorname{sign}}
+\newcommand{\dy}{\Delta \operatorname{Y}}
+\newcommand{\yd}{\operatorname{Y}\Delta}
+\newcommand{\aff}{\operatorname{aff}}
+\newcommand{\Dep}{\operatorname{Dep}}
+\newcommand{\aDep}{\operatorname{a-Dep}}
+\newcommand{\Val}{\operatorname{Val}}
+\newcommand{\Newton}{\operatorname{Newton}}
+\newcommand{\MIN}{\operatorname{MIN}}
+\newcommand{\SIGN}{\operatorname{SIGN}}
+\newcommand{\bi}[1]{\textbf{\textit{#1}}}
+\newcommand{\ca}[1]{\mathcal{#1}}
+\newcommand{\trans}{\intercal}
+\newcommand{\ermactually}[1]{%
+  \begin{tcolorbox}[
+    colback=blue!20,
+    colframe=blue!70,
+    sharp corners,
+    boxrule=0.8pt,
+    left=4pt,
+    right=4pt,
+    top=2pt,
+    bottom=2pt,
+    title=Note
+  ]
+    #1
+  \end{tcolorbox}%
+}
